@@ -1,3 +1,5 @@
+/* eslint-disable no-debugger */
+/* eslint-disable no-console */
 const func = () => {
     const sum = (a, b) => a + b;
     let x = 10;
@@ -9,6 +11,6 @@ const func = () => {
     y = 30;
     
     console.log(sum(x, y)); // 50
-    };
+};
     
-    func();
+func();
